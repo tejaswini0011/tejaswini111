@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>My Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <link
+href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=sw
+ap" rel="stylesheet">
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+ alert("Welcome to My Portfolio!");
+ });
+ </script>
+</head>
+<body>
+ <header>
+ <nav class="sticky-nav">
+ <ul class="nav-bar">
+ <li><a href="index.html">Home</a></li>
+ <li><a href="resume.html">Resume</a></li>
+ <li><a href="biodata.html">Bio-data</a></li>
+ <li><a href="#projects">Projects</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <section class="intro">
+ <div class="intro-content">
+ <img src="file:///C:/Users/USER/Downloads/tej.jpeg" alt="Profile Picture" class="profile-pic">
+ <div class="intro-text">
+ <h1>Hello, I'm Tejaswini Mahesh</h1>
+ <p>
+ I am a third-year Computer Science and Engineering student with a
+strong passion for web development. <br>Proficient in C++, Python, and Django,
+ I specialize in building dynamic and efficient web applications.</p>
+ <a href="resume.html" class="btn">Download Resume</a>
+ </div>
+ </div>
+ </section>
+ <section id="projects" class="projects">
+ <h2>My Projects</h2>
+ <div class="project-list">
+ <div class="project-item">
+ <img src="file:///C:/Users/USER/Desktop/py.jpg" alt="Project 1">
+ <h3>Project Title 1</h3>
+ <p>A brief description of the project. It uses technologies like HTML,
+CSS, and JavaScript.</p>
+ </div>
+ <div class="project-item">
+ <img src="file:///C:/Users/USER/Desktop/node.jpg" alt="Project 2">
+ <h3>Project Title 2</h3>
+ <p>A brief description of the project. It uses technologies like React and
+Node.js.</p>
+ </div>
+ <div class="project-item">
+ <img src="file:///C:/Users/USER/Desktop/flask.jpg" alt="Project 3">
+ <h3>Project Title 3</h3>
+ <p>A brief description of the project. It uses frameworks like Django or
+Flask.</p>
+ </div>
+ </div>
+ </section>
+ <section id="contact" class="contact">
+ <h2>Contact Me</h2>
+ <form action="#" method="post" class="contact-form">
+ <input type="text" name="name" placeholder="Your Name" required>
+ <input type="email" name="email" placeholder="Your Email" required>
+ <textarea name="message" placeholder="Your Message" rows="5"
+required></textarea>
+ <button type="submit" class="btn">Send</button>
+ </form>
+ </section>
+ </main>
+ <footer>
+ <p>&copy; 2024. All rights reserved.</p>
+ </footer>
+</body>
+</html>
