@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Resume</title>
+ <style>
+
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f4f4f9;
+ color: #333;
+ }
+ header {
+ background:darkblue;
+ color: white;
+ padding: 1rem 0;
+ text-align: center;
+ }
+ .nav-bar {
+ list-style: none;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ }
+ .nav-bar li {
+ margin: 0 15px;
+ }
+ .nav-bar a {
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ }
+ .nav-bar a:hover {
+ text-decoration: underline;
+ }
+ main {
+ max-width: 800px;
+ margin: 20px auto;
+ padding: 20px;
+ background: white;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ h2, h3 {
+ color:darkblue;
+ }
+ ul {
+ list-style: none;
+ padding: 0;
+ }
+ ul li {
+ margin: 10px 0;
+ padding-left: 20px;
+ position: relative;
+ }
+ ul li::before {
+ content: '\2022';
+ color:darkblue;
+ font-weight: bold;
+ display: inline-block;
+ width: 1em;
+ margin-left: -1em;
+ }
+ a {
+ color:blue;
+ text-decoration: none;
+ }
+ a:hover {
+ text-decoration: underline;
+ }
+ footer {
+ text-align: center;
+ padding: 10px 0;
+ background:darkblue;
+ color: white;
+ margin-top: 20px;
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <nav>
+ <ul class="nav-bar">
+ <li><a href="index.html">Home</a></li>
+ <li><a href="resume.html">Resume</a></li>
+ <li><a href="biodata.html">Bio-data</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <h2>Resume</h2>
+ <p>Download my <a href="assets/resume.pdf" download>Resume
+(PDF)</a>.</p>
+ <h3>Experience</h3>
+
+ <li><strong>Intern</strong> at Bharat Intern. (203–2023)
+ <p>Gained hands-on experience in Web - Development .</p>
+ </li>
+ </ul>
+ <h3>Education</h3>
+ <ul>
+ <li><strong>Bachelor of Computer Science</strong>,Visvesvaraya
+Technological University (2022–2026)
+ <p> Will Graduated with honors and specialized in software
+engineering.</p>
+ </li>
+ </ul>
+ <h3>Skills</h3>
+ <ul>
+ <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript,
+Python, C++,Java</li>
+ <li><strong>Frameworks:</strong> React, Node.js, Django</li>
+ <li><strong>Tools:</strong> VS Code, Figma</li>
+ </ul>
+ <h3>Certifications</h3>
+ <ul>
+ <li>Certified Web Developer - Coursera</li>
+ <li>Advanced Python Programming - Udemy</li>
+ </ul>
+ <h3>Hobbies</h3>
+ <ul>
+ <li>Building personal projects</li>
+ <li>Exploring new technologies</li>
+ <li>Reading tech blogs</li>
+ </ul>
+ </main>
+ <footer>
+ <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+ </footer>
+</body>
+</html>
